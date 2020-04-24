@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>TODO APP</h1>
+        <div style="text-align: center;">
+            <input type="text" id="taskInfo" class="inputcls"/><button class="btn btn-primary positioncls" id="taskAdd">Add Task</button>
+        </div>
+
+        <div class="containerscls ">
+            <div class="taskcontainer dropzone list-unstyled">
+                <span class="listlabel">Backlog</span>
+                <ul class="list-unstyled" id="tasksList">
+                    <!-- <li class = "taskcls" draggable="true">
+                        I'm a task
+                    <div class="deletecls">X</div> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="taskcontainer dropzone list-unstyled"><span class="listlabel">CuRRENT</span></div>
+            <div class="taskcontainer dropzone list-unstyled"><span class="listlabel">PROGRESS</span></div>
+            <div class="taskcontainer dropzone list-unstyled"><span class="listlabel">COMPLETED</span></div>
+        </div>
+            <script src="main.js"></script>
+    </body>
+</html>

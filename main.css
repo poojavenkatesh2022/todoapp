@@ -1,0 +1,72 @@
+.positioncls {
+    margin: auto;
+}
+
+.inputcls {
+    margin: 5px;
+    width: 50%;
+}
+
+.containerscls {
+    display: flex;
+    flex-direction: row;
+    ;
+    height: 100%;
+}
+
+.taskcontainer {
+    margin: 30px;
+    border: 1px solid gray;
+    height: 80%;
+    width: 20%;
+    text-align: center;
+}
+
+.listlabel {
+    font-size: 25px;
+    font-weight: 500;
+    color: blue;
+    font: bold;
+    text-transform: uppercase;
+}
+
+.taskcls {
+    border: 1px solid lightblue;
+    margin-top: 30px;
+    width: 85%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.deletecls {
+    display: inline;
+    border: 1px solid red;
+    font-size: 14px;
+    color: red;
+    float: right;
+    width: 10%;
+    cursor: pointer;
+}
+
+.taskcontentcls {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+holdcls{
+    border: solid lightblue 3px;
+}
+
+holdcls:active{
+    background-color: black;
+    border: solid lightblue 3px;
+}
+
+.invisible {
+    display: none;
+}
+
+.hovered {
+    border-style: dashed;
+}
